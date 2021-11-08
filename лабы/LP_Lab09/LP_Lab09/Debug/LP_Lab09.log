@@ -1,0 +1,32 @@
+﻿Сборка начата 11.05.2020 16:29:14.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\LP_Lab09.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LP_Lab09.cpp
+         LP_Lab09.cpp
+     1>C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.cpp(14,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.cpp(30,36): warning C4305: аргумент: усечение из "double" в "float"
+     1>C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.cpp(31,56): warning C4305: аргумент: усечение из "double" в "float"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\ЯП\LP_Lab09\Debug\LP_Lab09.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\Documents\ЯП\LP_Lab09\Debug\LP_Lab09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\ЯП\LP_Lab09\Debug\LP_Lab09.lib" /MACHINE:X86 Debug\Call.obj
+         Debug\LP_Lab09.obj
+         Debug\Varparm.obj
+         LP_Lab09.vcxproj -> C:\Users\User\Documents\ЯП\LP_Lab09\Debug\LP_Lab09.exe
+       FinalizeBuildStatus:
+         Файл "Debug\LP_Lab09.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_Lab09.tlog\LP_Lab09.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.cpp(14,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.cpp(30,36): warning C4305: аргумент: усечение из "double" в "float"
+         C:\Users\User\Documents\ЯП\LP_Lab09\LP_Lab09\LP_Lab09.cpp(31,56): warning C4305: аргумент: усечение из "double" в "float"
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:01.39

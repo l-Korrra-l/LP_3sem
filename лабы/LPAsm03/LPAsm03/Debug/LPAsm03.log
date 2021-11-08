@@ -1,0 +1,21 @@
+﻿Сборка начата 21.05.2020 13:03:48.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LPAsm03\LPAsm03\LPAsm03.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\LPAsm03.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling Asm03.asm...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmp08738abbcf0c4fa7aca01f3570bc9a16.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Asm03.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /TaAsm03.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\ЯП\LPAsm03\Debug\LPAsm03.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\Documents\ЯП\LPAsm03\Debug\LPAsm03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\ЯП\LPAsm03\Debug\LPAsm03.lib" /MACHINE:X86 Debug\Asm03.obj
+         LPAsm03.vcxproj -> C:\Users\User\Documents\ЯП\LPAsm03\Debug\LPAsm03.exe
+       FinalizeBuildStatus:
+         Файл "Debug\LPAsm03.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LPAsm03.tlog\LPAsm03.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LPAsm03\LPAsm03\LPAsm03.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.51

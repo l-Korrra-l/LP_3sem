@@ -1,0 +1,3 @@
+﻿  LP_Lab06.cpp
+C:\Users\User\Documents\ЯП\LP_Lab06\LP_Lab06\LP_Lab06.cpp(41,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  LP_Lab06.vcxproj -> C:\Users\User\Documents\ЯП\LP_Lab06\Debug\LP_Lab06.exe

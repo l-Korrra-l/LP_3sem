@@ -1,0 +1,19 @@
+﻿Сборка начата 09.12.2020 14:39:01.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LP_Lab17\LP_asm01e\LP_asm01e.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\LP_asm01e.tlog\unsuccessfulbuild".
+       _MASM:
+       Целевой объект "_MASM" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         LP_asm01e.vcxproj -> C:\Users\User\Documents\ЯП\LP_Lab17\Debug\LP_asm01e.exe
+       FinalizeBuildStatus:
+         Файл "Debug\LP_asm01e.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_asm01e.tlog\LP_asm01e.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LP_Lab17\LP_asm01e\LP_asm01e.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.06

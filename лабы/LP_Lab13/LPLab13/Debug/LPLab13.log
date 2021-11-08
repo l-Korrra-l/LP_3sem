@@ -1,0 +1,31 @@
+﻿Сборка начата 06.09.2020 21:14:13.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\LPLab13.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FST.cpp Log.cpp LPLab13.cpp
+         FST.cpp
+     1>C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\FST.cpp(62,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         Log.cpp
+         LPLab13.cpp
+     1>C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.cpp(31,21): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.cpp(42,19): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         Создание кода...
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\FST.cpp(62,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+
+
+       "C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.cpp(31,21): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Documents\ЯП\LP_Lab13\LPLab13\LPLab13.cpp(42,19): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+
+    Предупреждений: 1
+    Ошибок: 2
+
+Прошло времени 00:00:01.53

@@ -1,0 +1,5 @@
+﻿  Dictionary.cpp
+  LP_Lab07.cpp
+C:\Users\User\Documents\ЯП\LP_Lab07\LP_Lab07\LP_Lab07.cpp(9,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  LP_Lab07.vcxproj -> C:\Users\User\Documents\ЯП\LP_Lab07\Debug\LP_Lab07.exe

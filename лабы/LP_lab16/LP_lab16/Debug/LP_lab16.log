@@ -1,0 +1,80 @@
+﻿Сборка начата 08.12.2020 0:41:11.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\LP_lab16.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\LP_lab16.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt FST.cpp In.cpp Lex.cpp Log.cpp LP_lab16.cpp Parm.cpp
+         FST.cpp
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.cpp(106,49): error C2668: to_string: неоднозначный вызов перегруженной функции
+       C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.cpp(11,13): message : может быть "std::string to_string(int)"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\string(504,26): message : или       "std::string std::to_string(int)"
+       C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.cpp(106,49): message : при попытке сопоставить список аргументов "(_Ty1)"
+                 with
+                 [
+                     _Ty1=int
+                 ]
+         In.cpp
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(11,19): error C2065: PARM_MAX_SIZE: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2653: Parm: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2061: синтаксическая ошибка: идентификатор "PARM"
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2653: Parm: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,22): error C2065: PARM: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "parm"
+         Lex.cpp
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.h(43,166): error C2653: LEX: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.h(43,166): error C2061: синтаксическая ошибка: идентификатор "Lex"
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Lex.cpp(6,3): error C2065: lextable: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Lex.cpp(7,3): error C2065: idTable: необъявленный идентификатор
+         Log.cpp
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(11,19): error C2065: PARM_MAX_SIZE: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2653: Parm: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2061: синтаксическая ошибка: идентификатор "PARM"
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2653: Parm: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,22): error C2065: PARM: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "parm"
+         LP_lab16.cpp
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\LP_lab16.cpp(25,24): error C2660: PolishStart: функция не принимает 1 аргументов
+       C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Polish.h(6,6): message : см. объявление "PolishStart"
+         Parm.cpp
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(11,19): error C2065: PARM_MAX_SIZE: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2653: Parm: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2061: синтаксическая ошибка: идентификатор "PARM"
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2653: Parm: не является именем класса или пространства имен
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,22): error C2065: PARM: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "parm"
+         Создание кода...
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\LP_lab16.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\LP_lab16.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.cpp(106,49): error C2668: to_string: неоднозначный вызов перегруженной функции
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(11,19): error C2065: PARM_MAX_SIZE: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2653: Parm: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2061: синтаксическая ошибка: идентификатор "PARM"
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2653: Parm: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,22): error C2065: PARM: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "parm"
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.h(43,166): error C2653: LEX: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\FST.h(43,166): error C2061: синтаксическая ошибка: идентификатор "Lex"
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Lex.cpp(6,3): error C2065: lextable: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Lex.cpp(7,3): error C2065: idTable: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(11,19): error C2065: PARM_MAX_SIZE: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2653: Parm: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2061: синтаксическая ошибка: идентификатор "PARM"
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2653: Parm: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,22): error C2065: PARM: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "parm"
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\LP_lab16.cpp(25,24): error C2660: PolishStart: функция не принимает 1 аргументов
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(11,19): error C2065: PARM_MAX_SIZE: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2653: Parm: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(20,37): error C2061: синтаксическая ошибка: идентификатор "PARM"
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2653: Parm: не является именем класса или пространства имен
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,22): error C2065: PARM: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LP_lab16\LP_lab16\Log.h(25,27): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "parm"
+
+    Предупреждений: 0
+    Ошибок: 24
+
+Прошло времени 00:00:03.71

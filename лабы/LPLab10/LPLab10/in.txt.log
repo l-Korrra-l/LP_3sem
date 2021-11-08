@@ -1,0 +1,10 @@
+Тест без ошибок 
+===== Протокол ===== Дата:  04.06.2020 13:41:43=====
+===== Параметры =====
+-log: C:\Users\User\Documents\ЯП\LPLab10\LPLab10\in.txt.log
+-out: C:\Users\User\Documents\ЯП\LPLab10\LPLab10\in.txt.out
+-in: C:\Users\User\Documents\ЯП\LPLab10\LPLab10\in.txt.out
+===== Исходные данные =====
+Количество символов: 15
+Проигнорировано: 0
+Количество строк: 2

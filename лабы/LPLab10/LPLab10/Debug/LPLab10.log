@@ -1,0 +1,73 @@
+﻿Сборка начата 08.06.2020 14:39:33.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\LPLab10.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp In.cpp Log.cpp LPLab10.cpp Parm.cpp
+         Error.cpp
+         In.cpp
+         Log.cpp
+         LPLab10.cpp
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(19,9): error C2332: struct: отсутствует имя тега
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(19,9): error C2059: синтаксическая ошибка: константа
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(20,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(20,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(30,2): error C2059: синтаксическая ошибка: константа
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(31,2): error C2059: синтаксическая ошибка: константа
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(36,25): error C2039: "F": не является членом "`global namespace'".
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(36,25): error C2039: "I": не является членом "`global namespace'".
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(36,25): error C2039: "T": не является членом "`global namespace'".
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(37,6): warning C4094: пустое объявление "struct" пропускается
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(38,31): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Log.h(20,31): error C2039: "in": не является членом "In".
+       C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(27): message : см. объявление "In"
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Log.h(20,33): error C2061: синтаксическая ошибка: идентификатор "in"
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Log.h(21,34): error C2589: константа: недопустимая лексема справа от "::"
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(62,16): error C2039: "inner": не является членом "In".
+       C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(27): message : см. объявление "In"
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(62,22): error C2065: inner: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(63,22): error C2065: inner: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(64,57): error C2065: inner: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(65,50): error C2065: inner: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(66,48): error C2065: inner: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(67,18): error C2065: inner: необъявленный идентификатор
+     1>C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(69,19): error C2589: константа: недопустимая лексема справа от "::"
+         Parm.cpp
+         Создание кода...
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(37,6): warning C4094: пустое объявление "struct" пропускается
+
+
+       "C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(19,9): error C2332: struct: отсутствует имя тега
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(19,9): error C2059: синтаксическая ошибка: константа
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(20,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(20,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(30,2): error C2059: синтаксическая ошибка: константа
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Error.h(31,2): error C2059: синтаксическая ошибка: константа
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(36,25): error C2039: "F": не является членом "`global namespace'".
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(36,25): error C2039: "I": не является членом "`global namespace'".
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(36,25): error C2039: "T": не является членом "`global namespace'".
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\In.h(38,31): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Log.h(20,31): error C2039: "in": не является членом "In".
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Log.h(20,33): error C2061: синтаксическая ошибка: идентификатор "in"
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\Log.h(21,34): error C2589: константа: недопустимая лексема справа от "::"
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(62,16): error C2039: "inner": не является членом "In".
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(62,22): error C2065: inner: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(63,22): error C2065: inner: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(64,57): error C2065: inner: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(65,50): error C2065: inner: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(66,48): error C2065: inner: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(67,18): error C2065: inner: необъявленный идентификатор
+         C:\Users\User\Documents\ЯП\LPLab10\LPLab10\LPLab10.cpp(69,19): error C2589: константа: недопустимая лексема справа от "::"
+
+    Предупреждений: 1
+    Ошибок: 21
+
+Прошло времени 00:00:02.37

@@ -1,0 +1,22 @@
+﻿Сборка начата 04.05.2020 14:29:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LP_Lab08S\LP_Lab08L\LP_Lab08L.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\LP_Lab08L.tlog\LP_Lab08L.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\LP_Lab08L.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"Dictionary.h" /Fp"Dictionary.pch" /Fo"Debug\\" /Fd"Debug\LP_Lab08L.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp
+         Dictionary.cpp
+     1>c1xx : fatal error C1083: Не удается открыть файл источник: Dictionary.cpp: No such file or directory,
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LP_Lab08S\LP_Lab08L\LP_Lab08L.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Documents\ЯП\LP_Lab08S\LP_Lab08L\LP_Lab08L.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         c1xx : fatal error C1083: Не удается открыть файл источник: Dictionary.cpp: No such file or directory,
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.25

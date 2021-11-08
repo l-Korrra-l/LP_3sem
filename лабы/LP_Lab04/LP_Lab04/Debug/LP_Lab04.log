@@ -1,0 +1,8 @@
+﻿  LP_Lab04.cpp
+C:\Users\User\Documents\ЯП\LP_Lab04\LP_Lab04\LP_Lab04.cpp(17,32): warning C4309: инициализация: усечение константного значения
+C:\Users\User\Documents\ЯП\LP_Lab04\LP_Lab04\LP_Lab04.cpp(25,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Documents\ЯП\LP_Lab04\LP_Lab04\LP_Lab04.cpp(25,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Documents\ЯП\LP_Lab04\LP_Lab04\LP_Lab04.cpp(31,25): warning C4804: /: небезопасное использование типа "bool" в операции
+C:\Users\User\Documents\ЯП\LP_Lab04\LP_Lab04\LP_Lab04.cpp(32,19): warning C4804: -: небезопасное использование типа "bool" в операции
+C:\Users\User\Documents\ЯП\LP_Lab04\LP_Lab04\LP_Lab04.cpp(34,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  LP_Lab04.vcxproj -> C:\Users\User\Documents\ЯП\LP_Lab04\Debug\LP_Lab04.exe
