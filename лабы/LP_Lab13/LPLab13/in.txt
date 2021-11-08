@@ -1,0 +1,7 @@
+rb c;e;
+r b p; e;
+r  b c;b c;   e;
+rb       p;;
+r  b c;b c;e;
+r b p;      e;
+r   b c;b p;      e;
