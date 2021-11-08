@@ -1,0 +1,17 @@
+﻿Сборка начата 18.05.2020 9:52:38.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\LP_ASM02\LP_ASM02\LP_ASM02.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\User\Documents\ЯП\LP_ASM02\x64\Debug\".
+         Создание каталога "x64\Debug\LP_ASM02.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\LP_ASM02.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       FinalizeBuildStatus:
+         Файл "x64\Debug\LP_ASM02.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\LP_ASM02.tlog\LP_ASM02.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\LP_ASM02\LP_ASM02\LP_ASM02.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.13
